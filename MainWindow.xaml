@@ -1,0 +1,16 @@
+﻿<Window x:Class="AdventureGameWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdventureGameWPF"
+        mc:Ignorable="d"
+        Title="Adventure Game" Height="450" Width="800">
+    <Grid x:Name="MainGrid" Loaded="MainGrid_Loaded" Background="#FFC7F1FF">
+        <TextBlock x:Name="OutputBox" HorizontalAlignment="Left" Margin="27,25,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Height="310" Width="400"/>
+        <TextBox x:Name="InputBox" HorizontalAlignment="Left" Margin="27,340,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" Height="25" RenderTransformOrigin="0.54,-0.558"/>
+        <Button x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" Height="22" Margin="71,373,0,0" VerticalAlignment="Top" Width="56" Click="SubmitButton_Click"/>
+        <Image x:Name="LocationImage" HorizontalAlignment="Left" Height="211" Margin="297,90,0,0" VerticalAlignment="Top" Width="200"/>
+
+    </Grid>
+</Window>
