@@ -6,11 +6,13 @@
         xmlns:local="clr-namespace:AdventureGameWPF"
         mc:Ignorable="d"
         Title="Adventure Game" Height="450" Width="800">
-    <Grid x:Name="MainGrid" Loaded="MainGrid_Loaded" Background="#FFC7F1FF">
-        <TextBlock x:Name="OutputBox" HorizontalAlignment="Left" Margin="27,25,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Height="310" Width="400"/>
+    <Grid x:Name="MainGrid" Loaded="MainGrid_Loaded" Background="#FFF9F9F9">
+        <Image x:Name="ConsoleImage" HorizontalAlignment="Left" Height="432" VerticalAlignment="Top" Width="315"/>
+
+        <TextBlock x:Name="OutputBox" HorizontalAlignment="Left" Margin="27,25,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Height="310" Width="289"/>
         <TextBox x:Name="InputBox" HorizontalAlignment="Left" Margin="27,340,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" Height="25" RenderTransformOrigin="0.54,-0.558"/>
         <Button x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" Height="22" Margin="71,373,0,0" VerticalAlignment="Top" Width="56" Click="SubmitButton_Click"/>
-        <Image x:Name="LocationImage" HorizontalAlignment="Left" Height="211" Margin="297,90,0,0" VerticalAlignment="Top" Width="200"/>
+        <Image x:Name="LocationImage" HorizontalAlignment="Left" Height="432" Margin="316,0,0,0" VerticalAlignment="Top" Width="484"/>
 
     </Grid>
 </Window>
