@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AdventureGameWPF"
         mc:Ignorable="d"
         Title="Adventure Game" Height="450" Width="800">
-    <Grid x:Name="MainGrid" Loaded="MainGrid_Loaded" Background="#FFF9F9F9">
+    <Grid x:Name="MainGrid" Loaded="MainGrid_Loaded" Background="White">
         <Image x:Name="ConsoleImage" HorizontalAlignment="Left" Height="432" VerticalAlignment="Top" Width="315"/>
 
         <TextBlock x:Name="OutputBox" HorizontalAlignment="Left" Margin="27,25,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Height="310" Width="289"/>

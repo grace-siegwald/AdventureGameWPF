@@ -27,8 +27,9 @@ namespace AdventureGameWPF
             });
             Locations.Add(new Location()
             {
-                Name = "Hot Springs",
-                Description = "Sounds relaxing tbh..."
+                Name = "Forest",
+                Description = "Sounds relaxing tbh...",
+                LocationImage = "HotSprings.bmp"
             });
         }
         

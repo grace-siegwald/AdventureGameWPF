@@ -9,11 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="HotSprings.bmp" />
     <None Remove="Mountain.bmp" />
     <None Remove="River.bmp" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="HotSprings.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Mountain.bmp">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

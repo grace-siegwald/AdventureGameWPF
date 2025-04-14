@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("hotsprings.bmp")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mountain.bmp")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("river.bmp")]
 

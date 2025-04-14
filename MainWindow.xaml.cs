@@ -58,15 +58,11 @@ namespace AdventureGameWPF
                     }
                     else
                     {
-                        OutputBox.Text = "";
-                        ShowMenu();
-                        OutputBox.Text += $"\nPlease enter a valid input"; 
+                        OutputBox.Text += $"\nPlease enter a valid input";
                     }
                 }
                 else
                 {
-                    OutputBox.Text = "";
-                    ShowMenu();
                     OutputBox.Text += $"\nPlease enter a valid input";
                 }
             }
